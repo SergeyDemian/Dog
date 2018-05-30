@@ -1,0 +1,9 @@
+package main.java;
+
+import javax.ejb.Local;
+
+@Local
+public interface HelloWorldLocal {
+
+	public String getMessage();
+}

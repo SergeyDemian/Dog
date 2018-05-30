@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename source folder &apos;DogEJBClient/ejbModule&apos; to &apos;src&apos;&#x0D;&#x0A;- Original project: &apos;DogEJBClient&apos;&#x0D;&#x0A;- Original element: &apos;DogEJBClient/ejbModule&apos;&#x0D;&#x0A;- Renamed element: &apos;ejbModule&apos;" description="Rename source folder &apos;ejbModule&apos;" id="org.eclipse.jdt.ui.rename.source.folder" input="/ejbModule" name="src" stamp="1527705954298" version="1.0"/>
+</session>

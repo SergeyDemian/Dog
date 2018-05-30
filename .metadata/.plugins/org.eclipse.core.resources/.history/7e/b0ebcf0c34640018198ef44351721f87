@@ -1,0 +1,76 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>DogEJBClient</groupId>
+  <artifactId>DogEJBClient</artifactId>
+  <packaging>jar</packaging>
+  <version>DSKA_1.0.0</version>
+  <name>DogEJBClient</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.0.0</version>
+      <scope>test</scope>
+    </dependency>
+<dependency>
+    <groupId>javax.ejb</groupId>
+    <artifactId>javax.ejb-api</artifactId>
+    <version>3.2</version>
+    <scope>provided</scope>
+</dependency>
+</dependencies>
+  <build>
+    <finalName>DogEJBClient</finalName>
+	<plugins>
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.1</version>
+				
+            <configuration>
+               <source>1.7</source>
+               <target>1.7</target>
+            </configuration>
+         </plugin>
+      
+      <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-dependency-plugin</artifactId>
+    <executions>
+        <execution>
+            <id>copy-dependencies</id>
+            <phase>package</phase>
+            <goals>
+                <goal>copy-dependencies</goal>
+            </goals>
+            <configuration>
+            <includeScope>compile</includeScope>
+                <outputDirectory>${project.build.directory}/lib</outputDirectory>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
+<plugin>
+<artifactId>maven-jar-plugin</artifactId>
+<version>2.3</version>
+<configuration>
+<archive>
+<manifest>
+<addClasspath>true</addClasspath>
+<!-- <mainClass>main.java.MainHW</mainClass>-->
+<packageName>main.java</packageName>
+<classpathPrefix>lib/</classpathPrefix>
+</manifest>
+</archive>
+</configuration>
+</plugin>
+</plugins>
+  </build>
+  <parent>
+  	<groupId>Dog_project</groupId>
+  	<artifactId>Dog_project</artifactId>
+  	<version>DSKA_1.0.0</version>
+  </parent>
+</project>

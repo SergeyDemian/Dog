@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>Dog_project</groupId>
+	<artifactId>Dog_project</artifactId>
+	<version>DSKA_1.0.0</version>
+	<packaging>pom</packaging>
+	<name>Dog_project</name>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>DogEJBClient</groupId>
+				<artifactId>DogEJBClient</artifactId>
+				<version>DSKA_1.0.0</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>DogEJB</groupId>
+				<artifactId>DogEJB</artifactId>
+				<version>DSKA_1.0.0</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>Dog_web</groupId>
+				<artifactId>Dog_web</artifactId>
+				<version>DSKA_1.0.0</version>
+				<type>war</type>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	<modules>
+	    <module>DogEJB</module>
+		<module>DogEJBClient</module>
+		<module>Dog_web</module>
+		<module>Dog_EAR</module>
+	</modules>
+</project>

@@ -1,0 +1,9 @@
+package main.java;
+
+import javax.ejb.EJB;
+
+public class HelloWeb {
+
+	@EJB
+	public HelloWorldLocal hello;
+}
