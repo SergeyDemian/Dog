@@ -1,0 +1,112 @@
+!SESSION 2018-05-30 14:07:01.642 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data I:\Java\my-projects\Dog\Dog_project -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2018-05-30 23:09:33.870
+!MESSAGE Module Dog_EAR published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2018-05-30 23:09:33.911
+!MESSAGE Module DogEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2018-05-30 23:09:33.932
+!MESSAGE Module DogEJBClient published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2018-05-30 23:09:33.980
+!MESSAGE Module Dog_web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2018-05-30 23:09:33.990
+!MESSAGE Module DogEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2018-05-30 23:09:34.001
+!MESSAGE Module DogEJBClient published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-05-30 23:09:34.260
+!MESSAGE The server "WildFly 10.0 Runtime Server" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_161 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-05-30 23:09:36.156
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-05-30 23:09:53.193
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-05-30 23:09:53.516
+!MESSAGE Module Dog_EAR on WildFly 10.0 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-05-30 23:10:13.340
+!MESSAGE Module Dog_EAR on WildFly 10.0 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2018-05-30 23:16:48.268
+!MESSAGE 1 files modified in module DogEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2018-05-30 23:16:48.282
+!MESSAGE Module DogEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2018-05-30 23:21:09.322
+!MESSAGE 1 files modified in module Dog_web
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2018-05-30 23:25:01.741
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2018-05-30 23:32:01.300
+!MESSAGE Module Dog_web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2018-05-30 23:32:01.309
+!MESSAGE Module DogEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2018-05-30 23:32:01.321
+!MESSAGE Module DogEJBClient published without error.
+
+!ENTRY unknown 0 0 2018-05-30 23:32:01.334
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2018-05-30 23:32:01.339
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2018-05-30 23:32:01.342
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2018-05-30 23:32:01.346
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2018-05-30 23:32:01.352
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2018-05-30 23:32:01.355
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-05-30 23:32:01.372
+!MESSAGE The server "WildFly 10.0 Runtime Server" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_161 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-05-30 23:32:02.287
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-05-30 23:32:08.466
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2018-05-30 23:32:56.985
+!MESSAGE Module Dog_EAR published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2018-05-30 23:32:56.993
+!MESSAGE Module DogEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2018-05-30 23:32:57.003
+!MESSAGE Module DogEJBClient published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2018-05-30 23:32:57.024
+!MESSAGE Module Dog_web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2018-05-30 23:32:57.034
+!MESSAGE Module DogEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2018-05-30 23:32:57.044
+!MESSAGE Module DogEJBClient published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-05-30 23:32:57.341
+!MESSAGE Module Dog_web on WildFly 10.0 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-05-30 23:33:17.144
+!MESSAGE Module Dog_web on WildFly 10.0 Runtime Server still not ready to be shown in browser. Aborting delay.

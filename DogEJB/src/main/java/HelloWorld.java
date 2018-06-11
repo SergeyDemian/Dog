@@ -1,5 +1,7 @@
 package main.java;
 
+import javax.ejb.Local;
+import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
 import javax.ejb.TransactionManagement;
 import javax.ejb.TransactionManagementType;
@@ -10,7 +12,9 @@ import javax.ejb.TransactionManagementType;
 @Stateless (
 		mappedName = "HelloWorld"
 		)
+@Local(HelloWorldLocal.class)
 @TransactionManagement(TransactionManagementType.BEAN)
+@LocalBean
 public class HelloWorld implements HelloWorldRemote, HelloWorldLocal {
 
     /**

@@ -15,7 +15,7 @@ public class HelloWeb implements Serializable{
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	@EJB
+	@EJB(lookup = "java:global/Dog_EAR/DogEJB/HelloWorld!main.java.HelloWorldLocal")
 	HelloWorld hello;
 	
 	private String helloW = hello.getMessage();

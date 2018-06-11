@@ -10,19 +10,19 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>DogEJBClient</groupId>
+				<groupId>Dog_project</groupId>
 				<artifactId>DogEJBClient</artifactId>
 				<version>DSKA_1.0.0</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
-				<groupId>DogEJB</groupId>
+				<groupId>Dog_project</groupId>
 				<artifactId>DogEJB</artifactId>
 				<version>DSKA_1.0.0</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
-				<groupId>Dog_web</groupId>
+				<groupId>Dog_project</groupId>
 				<artifactId>Dog_web</artifactId>
 				<version>DSKA_1.0.0</version>
 				<type>war</type>

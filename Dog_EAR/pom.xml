@@ -20,17 +20,17 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>DogEJB</groupId>
+			<groupId>Dog_project</groupId>
 			<artifactId>DogEJB</artifactId>
 			<type>jar</type>
 		</dependency>
 		<dependency>
-			<groupId>DogEJBClient</groupId>
+			<groupId>Dog_project</groupId>
 			<artifactId>DogEJBClient</artifactId>
 			<type>jar</type>
 		</dependency>
 		<dependency>
-			<groupId>Dog_web</groupId>
+			<groupId>Dog_project</groupId>
 			<artifactId>Dog_web</artifactId>
 			<type>war</type>
 		</dependency>

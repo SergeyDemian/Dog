@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>Dog_web</groupId>
+	<groupId>Dog_project</groupId>
 	<artifactId>Dog_web</artifactId>
 	<packaging>war</packaging>
 	<version>DSKA_1.0.0</version>
@@ -31,6 +31,18 @@
 			<artifactId>jsf-api</artifactId>
 			<version>2.2.16</version>
 		</dependency>
+		<dependency>
+<groupId>Dog_project</groupId>
+  <artifactId>DogEJBClient</artifactId>
+  <type>jar</type>
+  <version>DSKA_1.0.0</version>
+  </dependency>
+  <dependency>
+<groupId>Dog_project</groupId>
+  <artifactId>DogEJB</artifactId>
+  <type>jar</type>
+  <version>DSKA_1.0.0</version>
+  </dependency>
 
 		<dependency>
 			<groupId>com.sun.faces</groupId>

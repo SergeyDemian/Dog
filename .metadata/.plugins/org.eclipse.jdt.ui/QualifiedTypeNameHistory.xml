@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.ejb.EJB"/>
+<fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="main.java.HelloWorldLocal"/>
+<fullyQualifiedTypeName name="javax.ejb.Local"/>
+<fullyQualifiedTypeName name="javax.ejb.LocalBean"/>
+</qualifiedTypeNameHistroy>

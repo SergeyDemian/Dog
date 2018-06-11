@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>DogEJB</groupId>
+  <groupId>Dog_project</groupId>
   <artifactId>DogEJB</artifactId>
   <packaging>jar</packaging>
   <version>DSKA_1.0.0</version>
@@ -21,6 +21,12 @@
     <version>3.2</version>
     <scope>provided</scope>
 </dependency>
+<dependency>
+<groupId>Dog_project</groupId>
+  <artifactId>DogEJBClient</artifactId>
+  <type>jar</type>
+  <version>DSKA_1.0.0</version>
+  </dependency>
 </dependencies>
   <build>
     <finalName>DogEJB</finalName>
